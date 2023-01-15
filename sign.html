@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Page</title>
+    <style>
+        .form-page{
+    /* display: inline-block; */
+    width: 20%;
+    margin: auto;
+     color: rebeccapurple;
+     background-color: lightgrey;
+     border: 2px solid black;
+     border-radius: 15px;
+     padding: 20px;
+}
+        .one{
+    text-align: center;
+}
+.two{
+    text-align: center;
+}
+.three{
+    text-align: center;
+}
+.button{
+    background-color: lightblue;
+    border-radius: 10px;
+    font-size: larger;
+    padding: 10px;
+}
+.button:hover{
+
+    background-color: pink;
+}  
+
+    </style>
+</head>
+<body bgcolor="lightgrey">
+    <section id="form">
+        <h2 style="text-align: center;"><U>SignUp Form</U></h2>
+        <div class="form-page" >
+    <form >
+     <b> Name:&nbsp;&nbsp;</b><input type="text" placeholder="Enter your name" class="one">
+    <br> <b>Email:&nbsp;&nbsp;</b><input type="text" placeholder="Enter your email" class="two">
+         <br>
+         <b>Contact:&nbsp;</b><input type="number" placeholder="Enter your Number" class="three">
+         <br>
+         <b>Gender:&nbsp;</b><input type="radio" name="Gender"  >Male&nbsp;<input type="radio" name="Gender" id="">Female
+         <br>
+         <b>State:&nbsp;&nbsp;</b>
+         <select name="State" id="">
+            <option value="Select State">Select State</option>
+            <option value="Web Development">Uttar Pradesh</option>
+            <option value="DSA">Himachal Pradesh</option>
+            <option value="System Design">Maharastra</option>
+            <option value="Frontend">Punjab</option>
+          </select>
+          <br>
+          <b>DOB:&nbsp;</b>
+           <input type="date" name="" id=""><br>
+           <b>Rating:&nbsp;</b><input type="radio" name="Rating" id="">1&nbsp;<input type="radio" name="Rating" id="">2&nbsp;<input type="radio" name="Rating" id="">3&nbsp;<input type="radio" name="Rating" id="">4&nbsp;<input type="radio" name="Rating" id="">5&nbsp;<br>
+           <p><b>Enter Message:&nbsp;</b></p>
+           <textarea id="msg" name="message" rows="5" cols="30"> Enter Your Message
+            </textarea><br>
+            <a href="index.html" target="blank">
+                <input type="button" value="Submit" class="button">
+            </a>
+           
+        </form>
+        </div>  
+        <br>
+    </section>
+</body>
+</html>
